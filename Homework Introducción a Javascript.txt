@@ -1,0 +1,16 @@
+Variables: en las variables almacenamos datos. Existen 3, const, let y var.
+  Const: No se puede modificar.
+  let: te permite declarar una variable en un alcance limitado.
+  var: te permite declarar una variable global o localmente.
+
+Strings: Basicamente es donde se escribe texto, se juntan dos textos distintos(concatenacion),
+ se busca o extrae parte de un texto
+
+Funciones (argumentos, return): las funciones son instrucciones, toman un valor y develven algo. 
+ Argumentos: arguments es muy similar a Array accesible dentro de funciones, contiene los valores de los argumentos pasados a esa función.
+ return: En pocas palabras, finaliza una funcion y regresa algo.
+
+Declaraciones if: se usa para tomar decisiones ("si pasa esto entonces hago esto").
+
+Valores booleanos (true, false): verdadero o falso, se usa para almacenar informacion 
+ como "sí / no, cumple / no cumple, verdadero / falso, existe / no existe"; informacion que solo puede tener dos estados.
