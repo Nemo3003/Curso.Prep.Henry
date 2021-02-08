@@ -1,0 +1,34 @@
+Objetos: Basicamente, es un contenedo de propiedades.
+
+Propiedades: por ejemplo, un automovil tiene propiedades, tiene una marca, un modelo, un color, etc. todas esas cosas, son propiedades.
+
+Métodos: Los metodos sirven para acciones como por ejemplo: ventanas emergentes, modificar las propiedades de un objeto, añadir o quitar elementos de un array, etc.
+
+Bucle for…in: se usa principalmente para comprobar las propiedades de un objeto. 
+ El siguiente ejemplo es de "developer.mozilla"
+ 
+`var obj = {a: 1, b: 2, c: 3};
+
+for (const prop in obj) {
+  console.log(`obj.${prop} = ${obj[prop]}`);
+}
+
+// Produce:
+// "obj.a = 1"
+// "obj.b = 2"
+// "obj.c = 3"
+`
+ Como se ve,  itera sobre todas las propiedades enumerables 
+que no son símbolos del objeto y registra una cadena de los nombres de propiedad y sus valores.
+ (Iterar: Las iteraciones simples se refieren a repetir una acción varias veces, en este contexto,´
+ iterar significa recorrer o revisar cada elemento de un array.)
+
+Notación de puntos vs notación de corchetes: 
+ La notacion de puntos al igual que la notacion de corchetes sirve para acceder a los elementos de un array,
+ se usa para acceder a cualquier objeto encapsulado dentro de un objeto. Se usa un numero de indice para acceder a cierto elemento
+  Ejemplo: persona.intereses[1]
+
+ Notacion de corchetes: Sirve para lo mismo que la notacion de puntos pero, no usa un numero de indice, sino el nombre asociado con el valor de cada elemento. 
+ Ejemplo:
+persona.edad = 45;
+persona['nombre']['apellido'] = 'Cratchit';
