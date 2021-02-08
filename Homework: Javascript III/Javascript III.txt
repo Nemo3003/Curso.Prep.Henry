@@ -1,0 +1,1 @@
+Arrays: los arrays o arreglos son objetos muy similares a una lista, se los reconoce porque lucen como "let colores = ["Rojo", "Amarillo"];"
