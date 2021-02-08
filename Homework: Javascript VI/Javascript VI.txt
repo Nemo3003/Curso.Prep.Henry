@@ -1,0 +1,12 @@
+Funciones Callback: Es una funcion pasada a ora funcion como argumento, que luego puede ser invocada (llamada) dentro de una funcion externa
+ Un ejemplo seria:
+ function saludar(nombre) {
+  alert('Hola ' + nombre);
+}
+
+function procesarEntradaUsuario(callback) {
+  var nombre = prompt('Por favor ingresa tu nombre.');
+  callback(nombre);
+}
+
+procesarEntradaUsuario(saludar);
