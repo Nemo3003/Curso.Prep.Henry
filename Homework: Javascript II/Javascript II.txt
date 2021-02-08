@@ -1,0 +1,9 @@
+for: Es un bucle y como tal se usa para repetir una o más instrucciones cierta cantidad de veces.
+
+&&: Este operador se entiende como "y", se usa junto con "if" cuando hay dos o más condiciones que se cumplen.
+
+||: Este operador se entiende como "o", tambien usado junto al "if", si alguna condicion es "false", regresa "false" 
+(es como, "si esta expresion o esta otra son falsas, regreso false, si ambas son true, regreso "true").
+
+!: Este operador se entiende como "No", es uno que me resulta interesante, porque regresa "false" si su unico operando
+ tiene la posibilidad de convertirse en "true", sino regresa "true".
