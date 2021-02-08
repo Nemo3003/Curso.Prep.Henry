@@ -1,0 +1,4 @@
+prototype: Los prototypes son una manera mediante la cual los objetos heredan ciertas caracteristicas entre si, asi como nosotros heredamos algo de nuestros padres.
+ Prototype puede ser utilizado para añadir metodos a los constructors ya existentes.
+
+Constructors (de Clases): El constructor es un metodo, se usa para crear o inicializar un objeto creado desde una clase.
